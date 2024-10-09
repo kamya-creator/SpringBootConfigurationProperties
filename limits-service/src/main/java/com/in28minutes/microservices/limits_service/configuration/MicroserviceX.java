@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
 @ConfigurationProperties("microservice-x")
 public class MicroserviceX {
 	
-	private String name;
+	private String name; 
 	private String sex;
 	
 	

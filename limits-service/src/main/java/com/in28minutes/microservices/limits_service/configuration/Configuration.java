@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 public class Configuration {
 	
 	private int minimum;
-	private int maximum;
+	private int maximum; 
 	
 	
 	public int getMinimum() {

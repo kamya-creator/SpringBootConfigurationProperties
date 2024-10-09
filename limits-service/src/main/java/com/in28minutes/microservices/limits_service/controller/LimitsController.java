@@ -15,7 +15,7 @@ public class LimitsController {
 	private Configuration configuration;
 	
 	
-	@GetMapping("/limits")
+	@GetMapping("/limits") 
 	public Limits retriveLimits()
 	{
 		return new Limits(configuration.getMinimum(), configuration.getMaximum());

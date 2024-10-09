@@ -12,7 +12,7 @@ public class MicroserviceXController {
 	@Autowired
 	private MicroserviceX microserviceX;
 	
-	@GetMapping("/microservice-x")
+	@GetMapping("/microservice-x") 
 	public MicroserviceX retriveMicroServiceX()
 	{
 		return new MicroserviceX(microserviceX.getName(), microserviceX.getSex());

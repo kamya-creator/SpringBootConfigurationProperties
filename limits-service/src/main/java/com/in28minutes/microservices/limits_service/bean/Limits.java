@@ -10,7 +10,6 @@ public class Limits {
 	
 	public Limits() {
 		super();
-		// TODO Auto-generated constructor stub
 	}
 	public Limits(int minimum, int maximum) {
 		super();
